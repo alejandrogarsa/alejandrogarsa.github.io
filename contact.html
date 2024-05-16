@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Content</title>
+<style>
+  body {
+    background-color: #0f0919;
+    color: white; /* Setting text color to white for better visibility */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Setting font to Helvetica Neue with fallbacks */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .content {
+    text-align: center;
+    max-width: 80%;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .content {
+      max-width: 90%;
+    }
+    
+    h1 {
+      font-size: 2rem;
+    }
+    
+    p {
+      font-size: 1rem;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="content">
+  <!-- Your centered content goes here -->
+  <h1>Contact Information</h1>
+  <p>WhatsApp: +34 637 612 317</p>
+  <p>Instagram: @melodia_ai</p>
+</div>
+
+</body>
+</html>
